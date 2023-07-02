@@ -10,6 +10,7 @@ module.exports = {
     'standard-with-typescript',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
+    'plugin:storybook/recommended',
   ],
   overrides: [],
   parserOptions: {
@@ -33,8 +34,16 @@ module.exports = {
     'padding-line-between-statements': [
       // ? https://eslint.org/docs/latest/rules/padding-line-between-statements
       'error',
-      { blankLine: 'always', prev: '*', next: 'return' },
-      { blankLine: 'always', prev: ['const', 'let', 'function'], next: '*' },
+      {
+        blankLine: 'always',
+        prev: '*',
+        next: 'return',
+      },
+      {
+        blankLine: 'always',
+        prev: ['const', 'let', 'function'],
+        next: '*',
+      },
       {
         blankLine: 'always',
         prev: ['*'],
@@ -60,7 +69,8 @@ module.exports = {
       },
     ],
     'react/require-default-props': ['off'],
-    'no-else-return': 'error', // ? https://eslint.org/docs/rules/no-else-return
+    'no-else-return': 'error',
+    // ? https://eslint.org/docs/rules/no-else-return
     '@typescript-eslint/explicit-function-return-type': 'off',
   },
 };
