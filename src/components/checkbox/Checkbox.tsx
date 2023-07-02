@@ -46,7 +46,7 @@ interface CheckboxProps
   label: string;
 }
 
-export function Checkbox({
+export default function Checkbox({
   label,
   className,
   inputSize,

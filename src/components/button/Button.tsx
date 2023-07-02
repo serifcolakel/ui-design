@@ -53,7 +53,7 @@ export interface ButtonProps
   rightIcon?: React.ReactNode;
 }
 
-export function Button({
+export default function Button({
   className,
   buttonType,
   size,
