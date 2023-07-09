@@ -134,7 +134,7 @@ In this section, you can access the documentation of the libraries used during t
 
 _For more examples, please refer to the [TypeScript](
 https://www.typescriptlang.org/
-) and more._
+) and [React](https://reactjs.org/) and [Storybook](https://storybook.js.org/) and [Styled-Components](https://styled-components.com/) and [TailwindCSS](https://tailwindcss.com/) and [React-Icons](https://react-icons.github.io/react-icons/) and [Vite](https://vitejs.dev/) and [Rollup](https://rollupjs.org/guide/en/) and [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) and [npm](https://www.npmjs.com/) and more._
 
 <!-- ROADMAP -->
 
