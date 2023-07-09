@@ -1,4 +1,3 @@
-/index.ts
 index.d.ts
 tailwind.config.cjs
 postcss.config.cjs

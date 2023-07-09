@@ -5,6 +5,9 @@
   "type": "module",
   "repository": "https://github.com/serifcolakel/ui-design",
   "main": "dist/index.umd.js",
+  "license": "MIT",
+  "author": "Serif Colakel",
+  "description": "UI Components for React & Typescript with TailwindCSS/Styled-Components",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -80,7 +83,7 @@
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "storybook": "^7.0.24",
-    "typescript": "^5.1.6"
+    "typescript": "^5.0.0"
   },
   "lint-staged": {
     "*.{js,css,md,vue,json,ts,tsx,jsx}": "prettier --write",
