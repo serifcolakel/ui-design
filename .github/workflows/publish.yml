@@ -26,13 +26,7 @@ jobs:
         uses: changesets/action@v1
         with:
           # this expects you to have a script called release which does a build for your packages and calls changeset publish
-          version: npm run version-packages
           publish: npm run release
-          createReleasePR: true
-          commit: true
-          baseBranch: main
-          title: 'Release: \${version}'
-          linked: true
-          updateChangelog: true
+          version: npm run version-packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

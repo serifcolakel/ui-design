@@ -16,7 +16,7 @@ function App() {
       <Button buttonType="primary" onClick={increment} radius="full" size="xxl">
         Increment {count}
       </Button>
-      <Checkbox intent="error" label="test22" />
+      <Checkbox intent="error" label="TEST" />
     </div>
   );
 }
