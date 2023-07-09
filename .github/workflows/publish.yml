@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: npm install --frozen-lockfile
       - name: Create Release Pull Request or Publish
-        id: create_release
+        id: changesets
         uses: changesets/action@v1
         with:
           # this expects you to have a script called release which does a build for your packages and calls changeset publish
