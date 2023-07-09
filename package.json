@@ -1,7 +1,7 @@
 {
   "name": "@serifcolakel/ui-components",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "repository": "https://github.com/serifcolakel/ui-design",
   "main": "dist/index.umd.js",
@@ -29,7 +29,7 @@
     "dev": "vite --open && tsc -w",
     "build": "tsc && vite build && npm run tailwind",
     "version-packages": "changeset version",
-    "release": "npm version --no-git-tag-version patch && npm run build && npm publish && git add . && git commit -m 'chore: release' && git push && git push --tags",
+    "release": "npm version --no-git-tag-version patch && npm run build && npm publish && git add . && git commit -m 'RELEASE (serif) : new release $npm_package_version' && git push && git push --tags",
     "prepare": "npm run build && husky install",
     "tailwind": "npx tailwindcss -o ./dist/index.css --minify",
     "preview": "vite preview",
