@@ -28,6 +28,8 @@
   "scripts": {
     "dev": "vite --open && tsc -w",
     "build": "tsc && vite build && npm run tailwind",
+    "version-packages": "changeset version",
+    "release": "npm run build && changeset publish",
     "prepare": "npm run build && husky install",
     "tailwind": "npx tailwindcss -o ./dist/index.css --minify",
     "preview": "vite preview",
