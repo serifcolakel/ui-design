@@ -1,2 +1,5 @@
 /index.ts
+index.d.ts
+tailwind.config.cjs
+postcss.config.cjs
 /src/vite-env.d.ts
