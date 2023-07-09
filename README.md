@@ -118,7 +118,25 @@ _Below is an example of how you can instruct your audience on installing and set
     ```sh
       npm run build
     ```
+7. Add the CHROMATIC_PROJECT_TOKEN in your .env file
+    ```sh
+      CHROMATIC_PROJECT_TOKEN=your_chromatic_project_token
+    ```
 
+8. Add the chromatic to the project. [reference](https://www.youtube.com/watch?v=2tqRpBcV8ug)
+    ```sh
+      npx chromatic --project-token=%CHROMATIC_PROJECT_TOKEN%
+    ```
+9. Add The Script to the package.json
+    ```sh
+      "scripts": {
+        "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
+      }
+    ```
+10. Publish the project to the chromatic. [reference](https://www.youtube.com/watch?v=2tqRpBcV8ug)
+    ```sh
+      npx chromatic --project-token=%CHROMATIC_PROJECT_TOKEN%
+    ```
 
 <div align="right">
   <a href="#top">
