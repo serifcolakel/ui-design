@@ -21,14 +21,13 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install --frozen-lockfile
+      - name: Version packages
+        run: npx changeset
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
         with:
           # this expects you to have a script called release which does a build for your packages and calls changeset publish
-          run: npx changeset
-          commit: true
-          # this is the branch that the release pull request will be made against
           publish: npm run release
           version: npm run version-packages
         env:
