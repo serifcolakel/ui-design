@@ -56,7 +56,7 @@
 
 ## About The Project
 
-In this project, the basic concepts of Storybook explained with examples are included.
+In this project, the basic concepts of Storybook were learned and the components were designed. The project was created with the aim of learning the basic concepts of Storybook and improving the design skills. I'm trying to create npm packages for the components I've designed. I will continue to add new components and pages to the project.
 
 <br />
 
@@ -69,6 +69,11 @@ In this section, the technologies used in the construction of the project are in
 - [Storybook](https://storybook.js.org/)
 - [Styled-Components](https://styled-components.com/)
 - [TailwindCSS](https://tailwindcss.com/)
+- [React-Icons](https://react-icons.github.io/react-icons/)
+- [Vite](https://vitejs.dev/)
+- [Rollup](https://rollupjs.org/guide/en/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 <!-- GETTING STARTED -->
 
@@ -91,7 +96,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/serifcolakel/storybook-desing.git
+   git clone https://github.com/serifcolakel/ui-design.git
    ```
 2. Install NPM packages
    ```sh
@@ -101,6 +106,19 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    npm run storybook
    ```
+4. Build the project of the storybook
+   ```sh
+    npm run build-storybook
+    ```
+5. Run the project on the server
+    ```sh
+      npm run dev
+    ```
+6. Build the project with vite & rollup & tailwindcss
+    ```sh
+      npm run build
+    ```
+
 
 <div align="right">
   <a href="#top">
